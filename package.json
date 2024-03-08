@@ -1,0 +1,22 @@
+{
+  "name": "latest-c-validator-js",
+  "version": "1.0.2",
+  "description": "Validating and sanitizing data",
+  "main": "./",
+  "scripts": {
+    "test": "./node_modules/.bin/jest --testPathPattern=./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aadycoral/latest-c-validator-js.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.1"
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "date-fns": "1.0.1",
+    "axios": "^1.4.0"
+  }
+}
